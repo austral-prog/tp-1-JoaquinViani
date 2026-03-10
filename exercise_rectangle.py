@@ -15,4 +15,3 @@ def rectangle():
     print(area)
     print(perimetro)
 
-rectangle()
