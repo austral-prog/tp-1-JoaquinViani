@@ -19,4 +19,3 @@ def swap():
     print (x_nuevo)
     print (y_nuevo) 
 
-swap ()
