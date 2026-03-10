@@ -22,4 +22,3 @@ def grades():
     print(nota_menor)
     print(total_puntos)
 
-grades()
