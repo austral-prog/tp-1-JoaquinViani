@@ -11,4 +11,3 @@ def triangle():
     area = ((base * altura)/2)
     print(area)
 
-triangle()
