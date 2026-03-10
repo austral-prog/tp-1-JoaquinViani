@@ -13,3 +13,21 @@ def math():
     """
     a = 57
     b = 7
+
+    suma = a + b
+    diferencia = a - b
+    producto = a * b
+    promedio = (a+b)/2
+    cociente_entero = a/b
+    resto_de_la_division_entera = a//b
+    valor_real_de_la_division = a%b
+
+    print(suma)
+    print(diferencia)
+    print(producto)
+    print(promedio)
+    print(resto_de_la_division_entera)
+    print(valor_real_de_la_division)
+    print(cociente_entero)
+
+math()
