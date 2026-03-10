@@ -18,4 +18,3 @@ def time():
     print (segundos_restantes)
 
 
-time ()
