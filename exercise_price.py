@@ -1,32 +1,23 @@
-def math():
+def price():
     """
-    Ejercicio 1 - Operaciones Matemáticas
+    Ejercicio 8 - Cálculo de Precio Final
 
-    Dado dos números enteros a y b, imprimir:
-    1. La suma
-    2. La diferencia
-    3. El producto
-    4. El promedio
-    5. El cociente entero
-    6. El resto de la división entera
-    7. El valor real de la división
+    Dado un precio base, calcular e imprimir:
+    1. El monto del impuesto (21%)
+    2. El subtotal (precio base + impuesto)
+    3. El monto de la propina (10% del subtotal)
+    4. El precio final (subtotal + propina)
     """
-    a = 57
-    b = 7
+    precio_base = 100
+    
 
-    suma = a + b
-    diferencia = a - b
-    producto = a * b
-    promedio = (a+b)/2
-    cociente_entero = a/b
-    resto_de_la_division_entera = a//b
-    valor_real_de_la_division = a%b
+    monto_del_impuesto = precio_base * 0.21
+    subtotal = precio_base + monto_del_impuesto
+    monto_de_la_propina = subtotal * 0.10
+    precio_final = subtotal + monto_de_la_propina
 
-    print(suma)
-    print(diferencia)
-    print(producto)
-    print(promedio)
-    print(resto_de_la_division_entera)
-    print(valor_real_de_la_division)
-    print(cociente_entero)
+    print (monto_del_impuesto)
+    print (subtotal)
+    print (monto_de_la_propina)
+    print (precio_final)
 
