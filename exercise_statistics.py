@@ -23,4 +23,3 @@ def statistics():
     print (minimo)
     print (rango)
 
-statistics()
