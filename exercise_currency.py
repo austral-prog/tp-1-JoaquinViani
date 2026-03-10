@@ -20,4 +20,3 @@ def currency():
     print (euro)
     print (real)
 
-currency ()
