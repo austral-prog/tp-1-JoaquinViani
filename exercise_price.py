@@ -20,4 +20,3 @@ def price():
     print (subtotal)
     print (monto_de_la_propina)
     print (precio_final)
-
