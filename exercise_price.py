@@ -30,4 +30,3 @@ def math():
     print(valor_real_de_la_division)
     print(cociente_entero)
 
-math()
